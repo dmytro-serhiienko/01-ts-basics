@@ -16,7 +16,6 @@ interface Post {
   id: number;
   title: string;
   body: string;
-  userId: number;
 }
 
 async function fetchPosts(): Promise<Post[]> {
