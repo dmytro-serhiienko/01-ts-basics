@@ -1,3 +1,29 @@
 body {
   background-color: black;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wrap__img {
+  background-color: aliceblue;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+}
+
+.img {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  bottom: -10px;
+}

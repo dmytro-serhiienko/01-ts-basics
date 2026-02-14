@@ -1,6 +1,3 @@
-// CSS
-import "./style.css";
-
 // Home work files
 import "./task-1";
 import "./task-2";
