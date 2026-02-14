@@ -19,6 +19,11 @@ body {
   height: 300px;
   overflow: hidden;
   position: relative;
+  transition: all 0.9s ease;
+}
+
+.wrap__img:hover {
+  transform: scale(1.5) rotate(360deg);
 }
 
 .img {
