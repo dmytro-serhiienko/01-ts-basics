@@ -136,6 +136,15 @@
 
 // Створи об’єкт користувача з роллю ADMIN.
 
+// enum Role {
+//   adminRole = "ADMIN",
+//   userRole = "USER",
+//   guestRole = "GUEST",
+// }
+
+// const boss: Role = Role.adminRole;
+// console.log("🚀 ~ boss:", boss);
+
 // ⸻
 
 // 🔹 БЛОК 6 — Generics
